@@ -1,4 +1,4 @@
-import challenges from '../../../data/challenges';
+import challenges from '../../data/challenges';
 
 const FLAGS = {
   unlock: '0x5c6',
