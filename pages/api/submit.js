@@ -6,7 +6,7 @@ const FLAGS = {
   'simulation-vin': 'SIMVIN', // TODO: replace with actual VIN string
 };
 
-let scoreboard = []; // in-memory
+import scoreboard from '../../lib/scoreboard';
 
 export default function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
